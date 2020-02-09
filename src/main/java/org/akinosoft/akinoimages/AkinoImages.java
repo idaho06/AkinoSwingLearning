@@ -1,5 +1,7 @@
 package org.akinosoft.akinoimages;
 
+import org.akinosoft.ballicon.BallIcon;
+
 import javax.swing.*;
 import java.awt.*;
 import java.io.UncheckedIOException;
@@ -32,12 +34,12 @@ public class AkinoImages {
         Icon icon05 = new ImageIcon(ClassLoader.getSystemResource("cuernos_small_resource.png"));
         //Icon icon05 = new ImageIcon(ClassLoader.getSystemResource("org/akinosoft/akinoimages/cuernos_small_resource.png"));
 
-        //Icon icon06 = new BallIcon(320, Color.RED);
+        Icon icon06 = new BallIcon(160, Color.RED);
 
 
-        JLabel greeting = new JLabel("Hello, Akino!!!", icon05, JLabel.CENTER);
+        JLabel greeting = new JLabel("Hello, Akino!!!", icon06, JLabel.CENTER);
         greeting.setFont(new Font("serif", Font.PLAIN, 32));
-        greeting.setForeground(Color.red);
+        greeting.setForeground(Color.BLUE);
 
         JFrame frame = new JFrame("AkinoFrame");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
