@@ -20,4 +20,7 @@ Just a bunch of exercises and examples to learn how to use Java Swing library an
 9. akinocheckbox
 
    Checkboxes and Model linking
-   
+10. akinoradiobutton
+
+    How to force a single selection with groups of radio buttons.
+    
