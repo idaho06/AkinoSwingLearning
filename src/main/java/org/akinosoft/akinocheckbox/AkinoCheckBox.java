@@ -14,11 +14,25 @@ public class AkinoCheckBox {
     JCheckBox option5 = new JCheckBox("Fallen from Kalimanjaro");
 
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> new AkinoCheckBox().startup());
+        SwingUtilities.invokeLater(() -> {
+            try {
+                new AkinoCheckBox().startup();
+            } catch (ClassNotFoundException e) {
+                e.printStackTrace();
+            } catch (UnsupportedLookAndFeelException e) {
+                e.printStackTrace();
+            } catch (InstantiationException e) {
+                e.printStackTrace();
+            } catch (IllegalAccessException e) {
+                e.printStackTrace();
+            }
+        });
     }
 
 
-    public void startup() {
+    public void startup() throws ClassNotFoundException, UnsupportedLookAndFeelException, InstantiationException, IllegalAccessException {
+
+        UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName()); // Let Swing decide LookAndFeel
 
         // Aer and Ear go together always
         option3.setModel(option2.getModel());

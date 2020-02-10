@@ -18,5 +18,6 @@ Just a bunch of exercises and examples to learn how to use Java Swing library an
    Correct way of calling blocking actions.
 8. akinotoggle
 9. akinocheckbox
+
    Checkboxes and Model linking
    
