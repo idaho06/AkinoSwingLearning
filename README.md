@@ -24,3 +24,10 @@ Just a bunch of exercises and examples to learn how to use Java Swing library an
 
     How to force a single selection with groups of radio buttons.
     
+11. akinocontentpane
+
+    Usage of the Jpanel to configure the Layout and replace the Conten Pane later.
+    
+
+
+    
