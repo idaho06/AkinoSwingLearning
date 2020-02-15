@@ -35,5 +35,9 @@ Just a bunch of exercises and examples to learn how to use Java Swing library an
 13. akinoborderlayout
 
     Testing the Border Layout
+    
+14. akinogridlayout
+
+    Testing the Grid Layout
 
     
