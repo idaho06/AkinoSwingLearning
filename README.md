@@ -44,4 +44,6 @@ Just a bunch of exercises and examples to learn how to use Java Swing library an
 
     Example of a complex composition using Border and Grid Layouts. Also, introducing Comboboxes.
 
-    
+16. akinobordersoncomponents
+
+    Showcase of types of borders and how they work with layouts
