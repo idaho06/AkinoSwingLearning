@@ -39,5 +39,9 @@ Just a bunch of exercises and examples to learn how to use Java Swing library an
 14. akinogridlayout
 
     Testing the Grid Layout
+    
+15. akinocomposinglayouts
+
+    Example of a complex composition using Border and Grid Layouts. Also, introducing Comboboxes.
 
     
