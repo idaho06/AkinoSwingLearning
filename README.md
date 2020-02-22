@@ -51,3 +51,7 @@ Just a bunch of exercises and examples to learn how to use Java Swing library an
 17. akinoscrollpane
 
     Example on how to use the JScrollPane widget
+    
+18. akinosplitpane
+
+    Example of splitpanes
