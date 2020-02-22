@@ -55,3 +55,7 @@ Just a bunch of exercises and examples to learn how to use Java Swing library an
 18. akinosplitpane
 
     Example of splitpanes
+    
+19. akinotabpane
+
+    Tabs, tabs, tabs.
