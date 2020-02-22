@@ -47,3 +47,7 @@ Just a bunch of exercises and examples to learn how to use Java Swing library an
 16. akinobordersoncomponents
 
     Showcase of types of borders and how they work with layouts
+    
+17. akinoscrollpane
+
+    Example on how to use the JScrollPane widget
