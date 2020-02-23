@@ -8,6 +8,10 @@ import java.awt.event.KeyEvent;
 public class AkinoMenu implements Runnable {
 
     public static void main(String[] args) {
+        System.setProperty("apple.laf.useScreenMenuBar", "true"); // This only affects Mac. Makes menu appear in the Mac bar
+        // Problem with this is that menubar are added to the Frame. If an application has several frames,
+        // the mac menu bar will change depending on the selected window. We will be forces to add the same menu bar
+        // to each frame to appear to have the same menu for the application
         SwingUtilities.invokeLater(new AkinoMenu());
     }
 
