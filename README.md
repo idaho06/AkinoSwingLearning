@@ -59,3 +59,9 @@ Just a bunch of exercises and examples to learn how to use Java Swing library an
 19. akinotabpane
 
     Tabs, tabs, tabs.
+    
+20. akinomenu
+
+    Sample using JMenu and JMenuItem. Examples for configuring keyboard shortcuts to actions and nested menus.
+    
+    
