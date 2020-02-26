@@ -64,4 +64,8 @@ Just a bunch of exercises and examples to learn how to use Java Swing library an
 
     Sample using JMenu and JMenuItem. Examples for configuring keyboard shortcuts to actions and nested menus.
     
+21. akinomenuaction
+
+    Usage of AbstractAction to easily create buttons, menu items and actions, without creating listeners.
+    
     
