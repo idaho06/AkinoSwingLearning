@@ -68,4 +68,8 @@ Just a bunch of exercises and examples to learn how to use Java Swing library an
 
     Usage of AbstractAction to easily create buttons, menu items and actions, without creating listeners.
     
+22. akinomenuradio
+
+    Nice example of JCheckBox Menu Item and JRadioButton Menu Item, showing grouping and action reusability
+    
     
