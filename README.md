@@ -80,5 +80,9 @@ Just a bunch of exercises and examples to learn how to use Java Swing library an
     
     Example on sliders and ways of labeling them.
     
+25. akinospinner (Range component)
+
+    JSpinner class. Nice for entering values.
+    
 
     
