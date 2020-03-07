@@ -76,4 +76,9 @@ Just a bunch of exercises and examples to learn how to use Java Swing library an
 
     PopUp menus are easy.
     
+24. akinoslider (Range component)
+    
+    Example on sliders and ways of labeling them.
+    
+
     
