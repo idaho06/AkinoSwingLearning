@@ -84,5 +84,7 @@ Just a bunch of exercises and examples to learn how to use Java Swing library an
 
     JSpinner class. Nice for entering values.
     
+26. akinoslidespinreact
 
+    Configuring actions on value changes in Sliders and Spinners
     
