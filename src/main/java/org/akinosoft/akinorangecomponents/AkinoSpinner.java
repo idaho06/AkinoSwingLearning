@@ -4,8 +4,10 @@ import javax.swing.*;
 import java.awt.*;
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
-import java.util.ArrayList;
 import java.util.Date;
+import java.util.Vector;
+
+//import java.util.ArrayList; // ArrayList or Vector are valid for Spinners
 
 public class AkinoSpinner implements Runnable {
     public static void main(String[] args) {
@@ -32,7 +34,8 @@ public class AkinoSpinner implements Runnable {
         spin2.setValue(date); // Setting the date is ugly as hell
 
         // Spinner of list of strings
-        ArrayList<String> modes = new ArrayList<>();
+        //ArrayList<String> modes = new ArrayList<>(); // This is valid.
+        Vector<String> modes = new Vector<>(); // Vector is synchronized. This is also valid
         modes.add("Kilimanjaro");
         modes.add("Abubilla");
         modes.add("#malos");
