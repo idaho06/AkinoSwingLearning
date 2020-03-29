@@ -88,3 +88,7 @@ Just a bunch of exercises and examples to learn how to use Java Swing library an
 
     Configuring actions on value changes in Sliders and Spinners
     
+27. akinolist
+
+    JList class. Like the popups, but with multiple selection
+    
