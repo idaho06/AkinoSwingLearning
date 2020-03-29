@@ -52,7 +52,8 @@ public class AkinoMenuAction implements Runnable {
             putValue(NAME, "Red");
             putValue(SMALL_ICON, new BallIcon(10, Color.RED));
             putValue(LARGE_ICON_KEY, new BallIcon(14, Color.RED));
-            putValue(ACCELERATOR_KEY, KeyStroke.getKeyStroke(KeyEvent.VK_R, Toolkit.getDefaultToolkit().getMenuShortcutKeyMask()));
+            //putValue(ACCELERATOR_KEY, KeyStroke.getKeyStroke(KeyEvent.VK_R, Toolkit.getDefaultToolkit().getMenuShortcutKeyMask())); // deprecated
+            putValue(ACCELERATOR_KEY, KeyStroke.getKeyStroke(KeyEvent.VK_R, Toolkit.getDefaultToolkit().getMenuShortcutKeyMaskEx()));
         }
 
         @Override
@@ -68,7 +69,8 @@ public class AkinoMenuAction implements Runnable {
             putValue(NAME, "Blue");
             putValue(SMALL_ICON, new BallIcon(10, Color.BLUE));
             putValue(LARGE_ICON_KEY, new BallIcon(14, Color.BLUE));
-            putValue(ACCELERATOR_KEY, KeyStroke.getKeyStroke(KeyEvent.VK_B, Toolkit.getDefaultToolkit().getMenuShortcutKeyMask()));
+            //putValue(ACCELERATOR_KEY, KeyStroke.getKeyStroke(KeyEvent.VK_B, Toolkit.getDefaultToolkit().getMenuShortcutKeyMask())); // deprecated
+            putValue(ACCELERATOR_KEY, KeyStroke.getKeyStroke(KeyEvent.VK_B, Toolkit.getDefaultToolkit().getMenuShortcutKeyMaskEx()));
         }
 
         @Override
