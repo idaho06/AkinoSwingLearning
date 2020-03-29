@@ -92,3 +92,9 @@ Just a bunch of exercises and examples to learn how to use Java Swing library an
 
     JList class. Like the popups, but with multiple selection
     
+28. akinolistcolumns
+
+    How to control multi-column JList
+    
+    
+    
