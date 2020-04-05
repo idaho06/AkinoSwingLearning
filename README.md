@@ -96,5 +96,7 @@ Just a bunch of exercises and examples to learn how to use Java Swing library an
 
     How to control multi-column JList
     
-    
+29. akinolistevents
+
+    How to detect selections changes and click in JList
     
